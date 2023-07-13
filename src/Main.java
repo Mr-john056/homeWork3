@@ -29,7 +29,8 @@ public static void main(String[] args) {
         System.out.println(f);
         System.out.println(g);
         System.out.println(h);
-    }
+        System.out.println();
+}
 
     public static void task2 () {
         double a = 27.12;
@@ -48,27 +49,19 @@ public static void main(String[] args) {
         System.out.println(e);
         System.out.println(f);
         System.out.println(g);
+        System.out.println();
     }
 
     public static void task3 () {
-        byte a = 126;
-        short b = 1260;
-        int c = 126000;
-        long d = 12600000;
-        float e = 1.5f;
-        double f = 2.5678;
-        char g = 35672;
-        boolean h = true;
-
-        System.out.println("Задача 3 - инициализация переменных");
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
+        byte classOne = 23;
+        byte classTwo = 27;
+        byte classThree = 30;
+        short totalSheets = 480;
+        int totalStudents = classOne + classTwo + classThree;
+        int studentSheet = totalSheets / totalStudents;
+        System.out.println("Задача 3 - операции с переменными");
+        System.out.println("На каждого ученика рассчитано " + studentSheet + " листов бумаги");
+        System.out.println();
     }
 
     public static void task4 () {
