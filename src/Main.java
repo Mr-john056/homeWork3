@@ -32,14 +32,13 @@ public static void main(String[] args) {
     }
 
     public static void task2 () {
-        byte a = 126;
-        short b = 1260;
-        int c = 126000;
-        long d = 12600000;
-        float e = 1.5f;
-        double f = 2.5678;
-        char g = 35672;
-        boolean h = true;
+        double a = 27.12;
+        long b = 987678965549l;
+        float c = 2.786f;
+        char d = 569;
+        short e = -159;
+        int f = 27897;
+        byte g = 67;
 
         System.out.println("Задача 2 - инициализация переменных");
         System.out.println(a);
@@ -49,7 +48,6 @@ public static void main(String[] args) {
         System.out.println(e);
         System.out.println(f);
         System.out.println(g);
-        System.out.println(h);
     }
 
     public static void task3 () {
