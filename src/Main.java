@@ -20,7 +20,7 @@ public static void main(String[] args) {
         char g = 35672;
         boolean h = true;
 
-        System.out.println("Задача 1 - инициализация переменных");
+        System.out.println("Задача 1");
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -41,7 +41,7 @@ public static void main(String[] args) {
         int f = 27897;
         byte g = 67;
 
-        System.out.println("Задача 2 - инициализация переменных");
+        System.out.println("Задача 2");
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -59,7 +59,7 @@ public static void main(String[] args) {
         short totalSheets = 480;
         int totalStudents = classOne + classTwo + classThree;
         int studentSheet = totalSheets / totalStudents;
-        System.out.println("Задача 3 - операции с переменными");
+        System.out.println("Задача 3");
         System.out.println("На каждого ученика рассчитано " + studentSheet + " листов бумаги");
         System.out.println();
     }
@@ -78,7 +78,7 @@ public static void main(String[] args) {
         int bottlesThreeDay = bottles1_Minutes * threeDayMinutes;
         int bottlesOneMonth = bottles1_Minutes * oneMonthMinutes;
 
-        System.out.println("Задача 4 - операции с переменными");
+        System.out.println("Задача 4");
         System.out.println("За 20 минут машина произвела " + bottlesTwentyMinutes + " штук бутылок");
         System.out.println("За сутки машина произвела " + bottlesOneDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + bottlesThreeDay + " штук бутылок");
@@ -95,30 +95,21 @@ public static void main(String[] args) {
         int totalWhiteColor = totalClasses * whiteColor;
         int totalBrownColor = totalClasses * brownColor;
 
-        System.out.println("Задача 5 - инициализация переменных");
+        System.out.println("Задача 5");
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhiteColor + " банок белой краски и " + totalBrownColor + " банок коричневой краски");
         System.out.println();
     }
 
     public static void task6 () {
-        byte a = 126;
-        short b = 1260;
-        int c = 126000;
-        long d = 12600000;
-        float e = 1.5f;
-        double f = 2.5678;
-        char g = 35672;
-        boolean h = true;
-
-        System.out.println("Задача 1 - инициализация переменных");
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
+        byte gramsOneBanana = 80;
+        byte gramsOneHundredMilk = 105;
+        byte iceCreamGramms = 100;
+        byte oneEggGramm = 70;
+        int recipeInGramm = (gramsOneBanana * 5) + (gramsOneHundredMilk * 2) + (iceCreamGramms * 2) + (oneEggGramm * 4);
+        float recipeInKilogramm = recipeInGramm / 1000f;
+        System.out.println("Задача 6");
+        System.out.println("Вес спортзавтрака спортсмена составляет: " + recipeInGramm + " граммов, или " + recipeInKilogramm + " килограмм");
+        System.out.println();
     }
 
     public static void task7 () {
