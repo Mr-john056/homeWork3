@@ -87,24 +87,17 @@ public static void main(String[] args) {
     }
 
     public static void task5 () {
-        byte a = 126;
-        short b = 1260;
-        int c = 126000;
-        long d = 12600000;
-        float e = 1.5f;
-        double f = 2.5678;
-        char g = 35672;
-        boolean h = true;
+        byte totalCans = 120;
+        byte whiteColor = 2;
+        byte brownColor = 4;
+        int cansPerClass = whiteColor + brownColor;
+        int totalClasses = totalCans / cansPerClass;
+        int totalWhiteColor = totalClasses * whiteColor;
+        int totalBrownColor = totalClasses * brownColor;
 
-        System.out.println("Задача 1 - инициализация переменных");
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
+        System.out.println("Задача 5 - инициализация переменных");
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhiteColor + " банок белой краски и " + totalBrownColor + " банок коричневой краски");
+        System.out.println();
     }
 
     public static void task6 () {
