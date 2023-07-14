@@ -113,24 +113,16 @@ public static void main(String[] args) {
     }
 
     public static void task7 () {
-        byte a = 126;
-        short b = 1260;
-        int c = 126000;
-        long d = 12600000;
-        float e = 1.5f;
-        double f = 2.5678;
-        char g = 35672;
-        boolean h = true;
-
-        System.out.println("Задача 1 - инициализация переменных");
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
+        byte totalKilograms = 7;
+        short totalKilogramsInGramms = 7 * 1000;
+        short slimWeightGramm1 = 250;
+        short slimWeightGramm2 = 500;
+        int resultSlimMin = totalKilogramsInGramms / slimWeightGramm1;
+        int resultSlimMax = totalKilogramsInGramms / slimWeightGramm2;
+        System.out.println("Задача 7");
+        System.out.println("Спортсмену потребуется " + resultSlimMin + " дней, чтобы похудеть, если спортсмен будет терять каждый день по 250 грамм");
+        System.out.println("Спортсмену потребуется " + resultSlimMax + " дней, чтобы похудеть, если спортсмен будет терять каждый день по 500 грамм");
+        System.out.println();
     }
 
     public static void task8 () {
