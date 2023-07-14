@@ -126,23 +126,20 @@ public static void main(String[] args) {
     }
 
     public static void task8 () {
-        byte a = 126;
-        short b = 1260;
-        int c = 126000;
-        long d = 12600000;
-        float e = 1.5f;
-        double f = 2.5678;
-        char g = 35672;
-        boolean h = true;
+        int mashaSalaryTo = 67760;
+        int denisSalaryTo = 83690;
+        int cristineSalaryTo = 76230;
+        int differenceSalaryMasha = (mashaSalaryTo * 10) / 100;
+        int mashaSalaryAfter = mashaSalaryTo + differenceSalaryMasha;
+        int differenceSalaryDenis = (denisSalaryTo * 10) / 100;
+        int denisSalaryAfter = denisSalaryTo + differenceSalaryDenis;
+        int differenceSalaryCristine = (cristineSalaryTo * 10) / 100;
+        int cristineSalaryAfter = cristineSalaryTo + differenceSalaryCristine;
 
-        System.out.println("Задача 1 - инициализация переменных");
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
+        System.out.println("Задача 8");
+        System.out.println("Маша теперь получает " + mashaSalaryAfter + " рублей. Годовой доход вырос на " + differenceSalaryMasha + " рублей");
+        System.out.println("Денис теперь получает " + denisSalaryAfter + " рублей. Годовой доход вырос на " + differenceSalaryDenis + " рублей");
+        System.out.println("Кристина теперь получает " + cristineSalaryAfter + " рублей. Годовой доход вырос на " + differenceSalaryCristine + " рублей");
+        System.out.println();
     }
 }
